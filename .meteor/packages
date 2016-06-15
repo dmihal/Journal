@@ -21,3 +21,4 @@ insecure                # Allow all DB writes from clients (for prototyping)
 djedi:pen
 kadira:flow-router
 kadira:blaze-layout
+momentjs:moment
