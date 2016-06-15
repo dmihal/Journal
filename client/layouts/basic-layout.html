@@ -1,4 +1,7 @@
 <template name="basicLayout">
+	<div id="overlay" class={{overlayClass}}>
+		{{> Template.dynamic template=overlay}}
+	</div>
 	<div id="container">
 		<header>
 			{{> header}}

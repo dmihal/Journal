@@ -20,6 +20,6 @@ autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 djedi:pen
 kadira:flow-router
-kadira:blaze-layout
 momentjs:moment
 fourseven:scss
+reactive-var

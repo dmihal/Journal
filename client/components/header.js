@@ -3,3 +3,8 @@ Template.header.helpers({
     return moment().format('MMMM Do YYYY');
   }
 });
+Template.header.events({
+  'click #dateTitle': function(e) {
+    FlowRouter.go('/calendar');
+  }
+});

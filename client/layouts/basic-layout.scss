@@ -14,3 +14,13 @@ html, body, #__blaze-root, #container {
 #main {
 	flex: 1 100%;
 }
+
+#overlay {
+	display: none;
+	position: absolute;
+	background: rgba(200, 200, 200, 0.5);
+
+	&.overlayVisible {
+		display: block;
+	}
+}
