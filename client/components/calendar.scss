@@ -1,0 +1,19 @@
+.calendar {
+
+	.days {
+		width: 30px * 7;
+
+		div {
+			text-align: right;
+			width: 30px;
+			height: 20px;
+			float: left;
+		}
+
+		@for $i from 0 through 6 {
+			.offset-#{$i} {
+				margin-left: 30px * $i
+			}
+		}
+	}
+}
