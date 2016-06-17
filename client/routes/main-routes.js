@@ -13,7 +13,8 @@ let getData = function() {
 
 FlowRouter.route('/', {
   action: function() {
-    content.set(Template.editor);
+    content.set('editor');
+    overlay.set(null);
   }
 });
 FlowRouter.route('/calendar', {
